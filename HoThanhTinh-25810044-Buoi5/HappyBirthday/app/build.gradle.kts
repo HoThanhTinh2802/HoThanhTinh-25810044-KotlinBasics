@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.nguyenvietlanh_happybirthday"
+    namespace = "com.example.hothanhtinh_happybirthday"
     compileSdk {
         version = release(37)
     }

@@ -1,4 +1,4 @@
-package com.example.nguyenvietlanh_happybirthday
+package com.example.hothanhtinh_happybirthday
 
 import org.junit.Test
 

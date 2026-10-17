@@ -1,4 +1,4 @@
-package com.example.nguyenvietlanh_happybirthday.ui.theme
+package com.example.hothanhtinh_happybirthday.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

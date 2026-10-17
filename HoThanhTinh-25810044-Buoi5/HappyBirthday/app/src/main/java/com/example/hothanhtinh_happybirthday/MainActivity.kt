@@ -1,4 +1,4 @@
-package com.example.nguyenvietlanh_happybirthday
+package com.example.hothanhtinh_happybirthday
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -17,7 +17,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.nguyenvietlanh_happybirthday.ui.theme.HappyBirthdayTheme
+import com.example.hothanhtinh_happybirthday.ui.theme.HappyBirthdayTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    GreetingText(message = "Chuc Mung Sinh Nhat Lanh!", from = "Tu Lanh")
+                    GreetingText(message = "Chuc Mung Sinh Nhat Tinh!", from = "Tu Tinh")
                 }
             }
         }
@@ -64,6 +64,6 @@ fun GreetingText(
 @Composable
 fun BirthdayCardPreview() {
     HappyBirthdayTheme {
-        GreetingText(message = "Chun Mung Sinh Nhat Lanh!", from = "Tu Lanh")
+        GreetingText(message = "Chun Mung Sinh Nhat Tinh!", from = "Tu Tinh")
     }
 }
